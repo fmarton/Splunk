@@ -21,7 +21,7 @@ RUN echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true
 RUN echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 seen true" | debconf-set-selections
 
 RUN apt-get install -y oracle-java8-installer
-COPY entrypoint.sh /sbin/entrypoint.sh
+#COPY entrypoint.sh /sbin/entrypoint.sh
 
 RUN chmod +x /sbin/entrypoint.sh
 
