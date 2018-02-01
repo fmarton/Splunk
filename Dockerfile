@@ -1,4 +1,4 @@
-FROM splunk/docker-splunk:latest
+FROM splunk/splunk:latest
 
 # install java8
 
