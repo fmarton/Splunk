@@ -1,4 +1,4 @@
-FROM splunk/docker-splunk:latest
+FROM splunk/splunk:latest
 ENV SPLUNK_START_ARGS="--accept-license  --answer-yes"
 # install java8
 
